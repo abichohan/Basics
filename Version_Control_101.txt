@@ -1,0 +1,47 @@
+- Version Control ----------
+
+Purpose?
+Lets several people work on one project]
+History of code
+
+To view history of a py file?
+- Right-click --> View histroy --> shows history log
+- If you want to go to a previous version --> rightclik --> Revert --> your file will revert
+
+
+Create git repo?
+- VCS --> create git repo --> choose where git repo will be created
+- User interface changed --> git commands at top and commit menu on lhs
+- Can see the git repo -> right click on project --> open in --> explorer --> folder will have a .git file --> shows ur directory is in the git
+- Colour coding of file:
+    - Red file = not adding to git repo, not added to staging area
+    - To add to staging area: in py window --> rh click --> git --> add
+    - can go to commit tab --> open the py file --> highlighted green --> not commited
+    - To commit --> select changes (i.e. file in commit tab) --> commit --> add message
+    - You'll see that the file turns grey = so both file in directory and git repo are the same
+    - if you make edits to file --> file will go blue
+
+Where is this stored? Where is it commited to?
+- it'll be in the file explorer
+
+
+What if we want to roll back to prevous version?
+- Go to commit --> default change list --> right click file --> rollback --> rollback
+
+
+What if we want to see all previous commits?
+Git tab --> Log --> can all previous commits
+        --> Press blue back and forth arrow --> show differences between current V and that commit
+        --> RH click on one of the commit --> new branch --> test code and then merge
+
+
+Connect to github? how?
+- so we can put in public repo so in case laptop breaks it'll be fine
+- git tab above (not below) --> github --> share project on github
+
+
+How to commit change to remote repo? i.e. github?
+
+- make sure ur in the remote repo branch
+- change using the most bottom right ting that says master or name of branch
+- change code in editor --> when u COMMIT AND PUSH to remote repo --> change straight to github
